@@ -1,0 +1,56 @@
+body {
+    background-color:#c1c2c2;
+}
+
+
+.barra-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+
+.cima, .baixo {
+    background-color: #d1e8fa;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+
+.img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+
+.social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.redes {
+    margin-left: 0px;
+}
+
+
+.social i {
+    margin-right: 60%;
+}
+
+
+.social p {
+    display: inline;
+}
