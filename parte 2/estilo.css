@@ -7,7 +7,6 @@ body {
     font-family: Poppins;
 }
 
-
 .barra-lateral {
     position: fixed;
     display: flex;
@@ -45,7 +44,7 @@ body {
 
 .social li:last-child {
     border-bottom: none;
-  }
+}
 
 .social li a {
     display: flex;
@@ -54,7 +53,7 @@ body {
 }
 
 .baixo .social a {
-    color:#51c4e0af;
+    color: #51c4e0af;
 }
 
 .social li i {
@@ -69,4 +68,14 @@ body {
 .social li .user {
     margin-left: auto;
     color: #f5f5f5;
+}
+
+section {
+    margin-left: 340px;
+    display: flexbox;
+    background-color: #333333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
 }
