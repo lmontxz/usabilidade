@@ -35,6 +35,7 @@ Este é um projeto de página de **perfil pessoal**, desenvolvido com HTML, CSS 
 
 ## 📸 Demonstração
 
-![Demo do Perfil](https://i.ibb.co/sd3p7BC1/M-dia.jpg)
+Acesse o link para visualização da página: 
+https://i.ibb.co/sd3p7BC1/M-dia.jpg
 
 ---
