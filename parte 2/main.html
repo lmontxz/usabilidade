@@ -1,5 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!-- LINK DA PALETA DE CORES USADAS
+https://www.color-hex.com/color-palette/1055845-->
 
 
 <head>
@@ -17,9 +21,13 @@
     <aside class="barra-lateral">
 
       <div class="cima">
-        <a href="#"><img src="https://i.ibb.co/sd3p7BC1/M-dia.jpg" alt="M-dia" border="0" class="img"></a>
+        <div id="carrossel" class="container">
+          <button id="anterior">&lt;</button>
+          <img src="https://i.ibb.co/sd3p7BC1/M-dia.jpg" alt="Imagem 1 do carrossel" border="0" class="img" id="imagensCarrossel">
+          <button id="posterior">&gt;</button>
+        </div>
         <h2>Nayara Monteiro</h2>
-        <p>Piratininga, Belo Horizonte, MG</p>
+        <p>Belo Horizonte, MG</p>
       </div>
       
       <div class="baixo">
@@ -46,14 +54,19 @@
             </a>
           </li>
         </ul>
-      </div>           
+      </div>
+      
+      <div class="baixo">
+        <h2>Disciplina atual</h2>
+        <p>Usabilidade, desenvolvimento web, mobile e jogos</p>
+      </div>
 
     </aside>
 
-    <section>
+    <section class="info">
       <h3>Informações Pessoais</h3>
       <p><strong>Email:</strong> <span class="sobre">monteironayara91@gmail.com</span></p>
-      <p><strong>RA:</strong> <span class="sobre">124116112</span></p>
+      <p><strong>RA:</strong> <span class="sobre">127228003</span></p>
       <p><strong>Telefone:</strong> <span class="sobre">(31) 983962462</span></p>
     </section>
 
@@ -89,6 +102,8 @@
     </section>
 
   </main>
+
+  <script src="script.js"></script>
 
 </body>
 
